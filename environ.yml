@@ -6,27 +6,15 @@ channels:
   - nvidia
   - defaults
 dependencies:
-  - matplotlib=3.3.4=py38h06a4308_0
-  - matplotlib-base=3.3.4=py38h62a2d02_0
-  - mkl=2021.3.0=h06a4308_520
-  - mkl-service=2.4.0=py38h7f8727e_0
-  - mkl_fft=1.3.0=py38h42c9631_2
-  - mkl_random=1.2.2=py38h51133e4_0
-  - numpy=1.20.3=py38hf144106_0
-  - numpy-base=1.20.3=py38h74d4b33_0
-  - pillow=8.3.1=py38h2c7a002_0
-  - pytorch=1.9.0=py3.8_cuda11.1_cudnn8.0.5_0
-  - scikit-image=0.18.1=py38ha9443f7_0
-  - scipy=1.6.2=py38had2a1c9_1
+  - opencv
+  - pytorch
+  - scikit-learn
+  - scipy
+  - matplotlib
+  - pillow
+  
+  
+	
 
-  - torchaudio=0.9.0=py38
-  - torchvision=0.10.0=py38_cu111
-  - pip:
-    - lpips==0.1.4
-    - opencv-python==4.5.3.56
-    - pylops==1.14.0
-    - python-mnist==0.7
-    - pytorch-pretrained-gans==0.0.1
 
-prefix: /home/awreed/.conda/envs/nerf_Sas
 
