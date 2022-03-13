@@ -7,3 +7,4 @@ conda create --name <env> --file requirements.txt
   
 sim_and_bf.ipynb has example of simulating waveforms and beamforming
 
+Use python 3.5/3.6
