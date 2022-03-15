@@ -3,7 +3,7 @@ Simulate and beamform SAS images
 
 Install requirements with 
 
-conda create --name <env> --file requirements.txt
+conda env create -f environ.yml
   
 sim_and_bf.ipynb has example of simulating waveforms and beamforming
 
